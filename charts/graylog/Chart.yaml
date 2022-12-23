@@ -17,10 +17,11 @@ maintainers:
     email: goonohc@gmail.com
 dependencies:
   - name: elasticsearch
-    version: 7.16.2
+    version: 7.17.3
     repository: https://helm.elastic.co
     tags:
       - install-elasticsearch
+    
   - name: mongodb
     version: 10.31.2
     repository: https://charts.bitnami.com/bitnami
